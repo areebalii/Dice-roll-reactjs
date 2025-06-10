@@ -4,7 +4,7 @@ import { StartGame } from './components/StartGame'
 import { Game } from './components/Game';
 
 function App() {
-  const [startGame, setStartGame] = useState(true);
+  const [startGame, setStartGame] = useState(false);
 
   const handleStartGame = () => {
     setStartGame((prev) => !prev);
